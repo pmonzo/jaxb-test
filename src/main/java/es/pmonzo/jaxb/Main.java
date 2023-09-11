@@ -43,8 +43,8 @@ public class Main {
 					System.out.println("writer close");
 				}
 			};
-			m.marshal(element, writer);
-			m.toString();
+			m.marshal(element, System.out);
+			
 			Reader readerCustom = new Reader() {
 
 				@Override
