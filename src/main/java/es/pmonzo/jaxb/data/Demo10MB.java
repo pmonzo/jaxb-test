@@ -9,8 +9,8 @@ public class Demo10MB {
 	
 	public Demo10MB() {
 		StringBuilder sb = new StringBuilder();
-		for(int i = 0; i< 10000; i++) {
-			sb.append(i);
+		for(int i = 0; i< 10240; i++) {
+			sb.append("AAAAAAAAAA");
 		}
 		data = sb.toString();
 	}
